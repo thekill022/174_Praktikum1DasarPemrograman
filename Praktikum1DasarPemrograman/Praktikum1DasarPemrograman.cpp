@@ -8,9 +8,18 @@ int main()
 	cout << "Masukkan Alasnya = ";
 	cin >> nAlas;
 	cout << "Masukkan Tingginya = ";
-		cin >> nTinggi;
+	cin >> nTinggi;
 		nLuas = 0.5 * nAlas * nTinggi;
 		cout << "Luas Segitiga Adalah " << nLuas << endl;
+
+		int panjang, lebar, luas;
+		cout << "Masukkan Panjang";
+		cin >> panjang;
+		cout << < "masukkan Lebar";
+		cin >> lebar;
+		luas = panjang * lebar;
+
+		cout << "Luasnya adalah = " << luas << endl;
 		
 		//ini biar terminal tidak langsung close saat sistem di run
 		system("pause");
